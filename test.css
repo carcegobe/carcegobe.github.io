@@ -1,0 +1,89 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: medium;
+	margin-right: auto;
+	margin-left: auto;
+	width: 900px;
+}
+
+h1, h2 {
+	color: #007e7e;
+}
+
+h2 {
+	border-bottom: 1px;
+	border-bottom-style: solid;
+}
+
+header img {
+	float: left;
+}
+
+header p {
+	clear: left;
+}
+
+header h1, header p {
+	text-align: center;
+}
+
+header p {
+	background-color: #a7cece;
+	border-color: white;
+	border-width: 1px;
+	border-style: dashed;
+	padding: 10px;
+	font-style: italic;
+	color: #444444;
+	margin: 0px 0px 0px 0px;
+}
+
+p#barranquilla {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section#offers {
+	display: table;
+	border-spacing: 10px;
+}
+
+div.tablerow {
+	display: table-row;
+}
+
+section#sells, section#rents {
+	display: table-cell;
+	vertical-align: top;
+	width: 450px;
+}
+
+section#offers li {
+	list-style-type: square;
+	color:  #444444;
+}
+
+.accordion-item {
+	background-color: #a7cece;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.accordion-link {
+	width: 100%;
+	color: #444444;
+	text-decoration: none;
+	display: flex;
+	padding: 0px 5px;
+}
+
+.answer {
+	max-height: 0px;
+	overflow: hidden;
+}
+
+.accordion-item:target .answer {
+	max-height: 20%;
+}
